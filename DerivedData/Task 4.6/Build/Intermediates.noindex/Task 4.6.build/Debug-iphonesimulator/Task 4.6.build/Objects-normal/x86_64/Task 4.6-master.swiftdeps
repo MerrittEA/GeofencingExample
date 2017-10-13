@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "c7470793247ce7a0cfd5ac412b292879"
+build_time: [1507927979, 989863000]
+inputs:
+  "/Users/potpie/Downloads/GEOFENCING TASK-2/Geofencing/RemindersViewController.swift": [1506228172, 0]
+  "/Users/potpie/Downloads/GEOFENCING TASK-2/Geofencing/RemindersManager.swift": [1507846765, 0]
+  "/Users/potpie/Downloads/GEOFENCING TASK-2/Geofencing/NewReminderViewController.swift": [1507927979, 0]
+  "/Users/potpie/Downloads/GEOFENCING TASK-2/Geofencing/AppDelegate.swift": [1495763296, 0]
+  "/Users/potpie/Downloads/GEOFENCING TASK-2/Geofencing/Radius.swift": [1506228172, 0]
+  "/Users/potpie/Downloads/GEOFENCING TASK-2/RadiusViewController.swift": [1507845962, 0]
+  "/Users/potpie/Downloads/GEOFENCING TASK-2/Geofencing/Reminder.swift": [1506228172, 0]
