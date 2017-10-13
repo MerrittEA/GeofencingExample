@@ -43,12 +43,12 @@ class NewReminderViewController: UIViewController, UIPopoverPresentationControll
         dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func doneButtonTapped(_ sender: Any) { // why aren't you working?
+    @IBAction func doneButtonTapped(_ sender: Any) {
         if let text = textField.text, let coordinate = coordinate  {
             let reminder = Reminder(text: text, coordinate: coordinate, radius: radius, enter: enter, exit: exit)
             RemindersManager.shared.add(reminder: reminder)
             //dismiss(animated: true, completion: nil)
-            self.navigationController?.popViewController(animated: true)
+            self.navigationController?.popViewController(animated: true) // pop instead of dismiss :D
         } else {
             let alertController = UIAlertController(title: "Error",
                                                     message: "Please select a map location.",
